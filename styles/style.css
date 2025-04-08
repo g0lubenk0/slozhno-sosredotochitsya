@@ -26,10 +26,6 @@
   padding: 40px 10px;
 }
 
-.header {
-  align-items: start;
-}
-
 .header__theme-menu {
   justify-self: end;
   margin-block: 65px;
@@ -107,11 +103,6 @@
 }
 
 .decorated-zone::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inline-size: 25px;
-  block-size: 25px;
   border-inline-end: 1px solid var(--frame-color, #ff0070);
   border-block-start: 1px solid var(--frame-color, #ff0070);
   inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
@@ -137,6 +128,7 @@
 
 .header {
   position: relative;
+  align-items: start;
 }
 
 .rec {
