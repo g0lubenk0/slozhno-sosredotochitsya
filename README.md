@@ -19,5 +19,3 @@ https://github.com/g0lubenk0/slozhno-sosredotochitsya
 ### Автор 
 
 - Github - [Golubev Artem](https://github.com/g0lubenk0)
-
-
